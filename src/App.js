@@ -1,58 +1,23 @@
-import React, { useState } from 'react';
-import Todo from './components/Todo';
-import FilterButton from './components/FilterButton';
-import Form from './components/Form';
-import { nanoid } from "nanoid";
+import logo from './logo.svg';
+import './App.css';
 
-function App(props) {
-  // tasks is the DATA object {id, name, completed} for each form
-  const [tasks, setTasks] = useState(props.tasks);
-  function addTask(name) {
-    const newTask = { id: "todo-"+nanoid(), name: name, completed: false };
-    setTasks([...tasks, newTask]);
-  }
-  function toggleTaskCompleted(id) {
-    const updatedTasks = tasks.map(task => {
-      // if this task has the same ID as the edited task
-      if (id === task.id) {
-        // use objectt spread to make a new object whose `completed` prop has
-        // been inverted
-        return { ...task, completed: !task.completed }
-      }
-      return task;
-    })
-    setTasks(updatedTasks);
-  }
-  const taskList = tasks.map((task) => (
-    <Todo
-      id={task.id}
-      name={task.name}
-      completed={task.completed}
-      key={task.id}
-      toggleTaskCompleted={toggleTaskCompleted}
-    />
-  ));
-
-  const tasksNoun = taskList.length !== 1 ? "tasks" : "task";
-  const headingText = `${taskList.length} ${tasksNoun} remaining`;
-
+function App() {
   return (
-    <div className="todoapp stack-large">
-      <h1>TodoMatic</h1>
-      <Form addTask={addTask} />
-      <div className="filters btn-group stack-exception">
-        <FilterButton />
-        <FilterButton />
-        <FilterButton />
-      </div>
-      <h2 id="list-heading">{headingText}</h2>
-      <ul
-        role="list"
-        className="todo-list stack-large stack-exception"
-        aria-labelledby="list-heading"
-      >
-        {taskList}
-      </ul>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
