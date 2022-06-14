@@ -1,0 +1,70 @@
+Info 0    [23:59:48.518] Starting TS Server
+Info 1    [23:59:48.518] Version: 4.7.3
+Info 2    [23:59:48.518] Arguments: /usr/bin/node /home/lamanator/Desktop/Git/lamduong33.github.io/node_modules/typescript/lib/tsserver.js --logFile /home/lamanator/Desktop/Git/lamduong33.github.io/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/3fe70b73bb464a49eb777c497657b78d/tscancellation*
+Info 3    [23:59:48.518] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [23:59:48.518] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [23:59:48.528] Format host information updated
+Info 6    [23:59:48.533] Search path: /home/lamanator/Desktop/Git/lamduong33.github.io/src
+Info 7    [23:59:48.534] For info: /home/lamanator/Desktop/Git/lamduong33.github.io/src/App.js :: No config files found.
+Info 8    [23:59:48.538] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [23:59:49.755] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1217.482322998345ms
+Info 10   [23:59:49.755] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [23:59:49.756] 	Files (213)
+
+Info 12   [23:59:49.756] -----------------------------------------------
+Info 13   [23:59:49.763] AutoImportProviderProject: found 5 root files in 5 dependencies in 5.686801001429558 ms
+Info 14   [23:59:49.764] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [23:59:49.848] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 84.32828299701214ms
+Info 16   [23:59:49.848] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [23:59:49.848] 	Files (177)
+
+Info 18   [23:59:49.848] -----------------------------------------------
+Info 19   [10:24:36.668] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [10:24:36.710] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 41.173524998128414ms
+Info 21   [10:24:36.710] Different program with same set of files
+Info 22   [11:26:41.226] DirectoryWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Form.js 0:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 23   [11:26:41.227] Elapsed:: 1.3295800015330315ms DirectoryWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Form.js 0:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 24   [11:26:41.227] DirectoryWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Form.js 1:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 25   [11:26:41.227] Elapsed:: 0.1680469959974289ms DirectoryWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Form.js 1:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 26   [11:26:41.228] DirectoryWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 2:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 27   [11:26:41.228] Elapsed:: 0.18742699921131134ms DirectoryWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 2:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 28   [11:26:41.228] DirectoryWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 3:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 29   [11:26:41.228] Elapsed:: 0.15135500580072403ms DirectoryWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 3:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 30   [11:26:42.098] FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 1:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 500 undefined WatchType: Closed Script info
+Info 31   [11:26:42.098] Elapsed:: 0.22763100266456604ms FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 1:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 500 undefined WatchType: Closed Script info
+Info 32   [11:26:42.098] FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Form.js 1:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Form.js 500 undefined WatchType: Closed Script info
+Info 33   [11:26:42.098] Elapsed:: 0.02932000160217285ms FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Form.js 1:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Form.js 500 undefined WatchType: Closed Script info
+Info 34   [11:26:42.098] FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/package.json 1:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/package.json 250 undefined WatchType: package.json file
+Info 35   [11:26:42.099] Elapsed:: 0.20430899411439896ms FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/package.json 1:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/package.json 250 undefined WatchType: package.json file
+Info 36   [11:26:42.348] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 37   [11:26:42.421] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: SafeModules Elapsed: 72.84026300162077ms
+Info 38   [11:26:42.421] Project '/dev/null/inferredProject1*' (Inferred)
+Info 39   [11:26:42.421] 	Files (214)
+
+Info 40   [11:26:42.421] -----------------------------------------------
+Info 41   [11:26:42.421] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 42   [11:26:42.421] 	Files (177)
+
+Info 43   [11:26:42.421] -----------------------------------------------
+Info 44   [11:26:44.599] Before ensureProjectForOpenFiles:
+Info 45   [11:26:44.600] After ensureProjectForOpenFiles:
+Info 46   [11:26:44.601] got projects updated in background, updating diagnostics for /home/lamanator/Desktop/Git/lamduong33.github.io/src/App.js
+Info 47   [12:02:44.623] FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/package.json 2:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/package.json 250 undefined WatchType: package.json file
+Info 48   [12:02:44.623] Elapsed:: 0.6663719937205315ms FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/package.json 2:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/package.json 250 undefined WatchType: package.json file
+Info 49   [12:03:30.637] FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 2:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 500 undefined WatchType: Closed Script info
+Info 50   [12:03:30.639] Elapsed:: 1.711377002298832ms FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 2:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/Todo.js 500 undefined WatchType: Closed Script info
+Info 51   [12:03:30.639] FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/FilterButton.js 2:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/FilterButton.js 500 undefined WatchType: Closed Script info
+Info 52   [12:03:30.639] Elapsed:: 0.21088100224733353ms FileWatcher:: Triggered with /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/FilterButton.js 2:: WatchInfo: /home/lamanator/Desktop/Git/lamduong33.github.io/src/components/FilterButton.js 500 undefined WatchType: Closed Script info
+Info 53   [12:03:30.889] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 54   [12:03:30.968] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: true structureIsReused:: Not Elapsed: 78.45254699885845ms
+Info 55   [12:03:30.968] Project '/dev/null/inferredProject1*' (Inferred)
+Info 56   [12:03:30.968] 	Files (212)
+
+Info 57   [12:03:30.968] -----------------------------------------------
+Info 58   [12:03:30.968] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 59   [12:03:30.968] 	Files (177)
+
+Info 60   [12:03:30.968] -----------------------------------------------
+Info 61   [12:03:33.140] Before ensureProjectForOpenFiles:
+Info 62   [12:03:33.140] After ensureProjectForOpenFiles:
+Info 63   [12:03:33.140] got projects updated in background, updating diagnostics for /home/lamanator/Desktop/Git/lamduong33.github.io/src/App.js
