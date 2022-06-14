@@ -14,7 +14,7 @@ export default function Form(props) {
   /**  This will handle a submission */
   function handleSubmit(event) {
     event.preventDefault();
-    props.addTask("Say hello!");
+    props.addTask(name);
     setName("");
   }
 

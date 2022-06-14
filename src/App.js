@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import Todo from './components/Todo';
 import FilterButton from './components/FilterButton';
 import Form from './components/Form';
+import { nanoid } from "nanoid";
 
 function App(props) {
   // tasks is the DATA object {id, name, completed} for each form
   const [tasks, setTasks] = useState(props.tasks);
   function addTask(name) {
-    const newTask = { id: 'id', name: name, completed: false };
+    const newTask = { id: "todo-"+nanoid(), name: name, completed: false };
     setTasks([...tasks, newTask]);
   }
   const taskList = tasks.map((task) => (
@@ -19,6 +20,9 @@ function App(props) {
     />
   ));
 
+  const tasksNoun = taskList.length !== 1 ? "tasks" : "task";
+  const headingText = `${taskList.length} ${tasksNoun} remaining`;
+
   return (
     <div className="todoapp stack-large">
       <h1>TodoMatic</h1>
@@ -28,7 +32,7 @@ function App(props) {
         <FilterButton />
         <FilterButton />
       </div>
-      <h2 id="list-heading">3 tasks remaining</h2>
+      <h2 id="list-heading">{headingText}</h2>
       <ul
         role="list"
         className="todo-list stack-large stack-exception"
