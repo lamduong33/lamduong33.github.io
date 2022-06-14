@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Home = () => {
+const Blog = () => {
   return (
     <div>
       Blog placeholder.
     </div>
   );
 }
+
+export default Blog;

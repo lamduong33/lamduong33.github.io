@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Home = () => {
+const Resume = () => {
   return (
     <div>
       Resume placeholder.
     </div>
   );
 }
+
+export default Resume;
