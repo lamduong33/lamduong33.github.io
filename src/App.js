@@ -7,8 +7,7 @@ function App() {
     <div className="App">
       <NavBar />
       <header className="Welcome-page">
-        <p> This site is currently under construction. 👷 </p>
-        <p> Please come back later for some fun development! </p>
+        <img src="./"/>
       </header>
       <header className="Welcome-content">
       </header>
