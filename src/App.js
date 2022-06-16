@@ -10,7 +10,8 @@ function App() {
       <header className="Home-page">
         <img className="Portrait" src={Portrait} alt="Lam Duong's portrait" />
         <header className="Home-content">
-          Hi, my name is Lam! I'm
+          Hi, my name is Lam and I'm a full-stack developer. On my website, you
+          can find some fun and interesting things I work on.
         </header>
       </header>
     </div>
