@@ -24,12 +24,13 @@
   color: #D8DEE9;
 }
 
-/* Nested inside Home-page content */
+/* Nested inside Home-page content as text*/
 .Home-content {
-  background-color: #2E3440;
-  top:-27vh;
+  top:-25vh;
+  width: 80ch;
   position:relative;
   justify-content: center;
+  align-items: center;
   font-size: calc(10px + 1vmin);
   color: #D8DEE9;
 }
@@ -38,7 +39,7 @@
   height:25vh;
   width:25vh;
   position:relative;
-  top:-30vh;
+  top: -25vh;
 }
 
 .App-link {
