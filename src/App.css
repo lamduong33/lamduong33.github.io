@@ -48,6 +48,11 @@
   margin-right: 10px;
 }
 
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
 .App-link {
   color: #61dafb;
 }
