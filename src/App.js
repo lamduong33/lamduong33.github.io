@@ -17,8 +17,8 @@ function App() {
             aviation. I write and make videos about these topics from time to
             time.
           </p>
-          Social: <a style={{color:'white'}} href="https://github.com/lamduong33"> GitHub</a> -
-          <a style={{color:'white'}} href="https://github.com/lamduong33"> LinkedIn</a>
+          <img className="SocialLinkLogo" src={"/GitHubLogo.png"}/>
+          <img className="SocialLinkLogo" src={"/LinkedInLogo.png"}/>
         </header>
       </header>
     </div>
