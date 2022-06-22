@@ -17,8 +17,12 @@ function App() {
             aviation. I write and make videos about these topics from time to
             time.
           </p>
-          <img className="SocialLinkLogo" src={"/GitHubLogo.png"}/>
-          <img className="SocialLinkLogo" src={"/LinkedInLogo.png"}/>
+          <a href="https://github.com/lamduong33">
+            <img className="SocialLinkLogo" src={'/GitHubLogo.png'} />
+          </a>
+          <a href="https://www.linkedin.com/in/lam-duong33/">
+            <img className="SocialLinkLogo" src={'/LinkedInLogo.png'} />
+          </a>
         </header>
       </header>
     </div>
